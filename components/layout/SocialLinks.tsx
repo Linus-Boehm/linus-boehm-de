@@ -49,6 +49,7 @@ const SocialLinks: React.FC = () => {
           <div css={styles.iconContainer} key={link}>
             <div tw="mx-auto">
               <a href={link} target="_blank" rel="nofollow noreferrer">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={img} css={styles.icon} />
               </a>
             </div>

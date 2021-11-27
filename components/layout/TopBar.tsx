@@ -25,6 +25,7 @@ const TopBar: React.VFC = () => {
         <HamburgerMenu />
       </div>
       <div css={styles.imgContainer}>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img css={styles.img} src="/images/LogoWhite.svg" />
       </div>
     </div>

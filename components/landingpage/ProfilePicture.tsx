@@ -10,6 +10,7 @@ const styles: CSSOthersObject = {
 const ProfilePicture: React.VFC = () => {
   return (
     <div css={styles.container}>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src="/images/Linus.jpg" css={styles.img} />
     </div>
   );

@@ -3,15 +3,18 @@ import tw, { css } from 'twin.macro';
 import React from 'react';
 
 const styles: CSSOthersObject = {
+  spacer: [
+    tw`h-12 w-full p-4 md:p-0`,
+  ],
   wrapper: [
-    tw`fixed h-40`,
+    tw`md:fixed md:h-40`,
     css`
       bottom: 0px;
       left: 8px;
     `,
   ],
-  innerContainer: [tw`absolute flex flex-col w-20 space-y-4`],
-  lineContainer: [tw`flex`],
+  innerContainer: [tw`flex md:flex-col w-20 space-x-4 space-y-0 md:space-x-0 md:space-y-4`],
+  lineContainer: [tw`hidden md:flex`],
   icon: [
     tw`mx-auto hover:opacity-70 transition-opacity`,
     css`
@@ -43,6 +46,7 @@ const links: Array<SocialIcon> = [
 ];
 const SocialLinks: React.FC = () => {
   return (
+    <div css={styles.spacer}>
     <div css={styles.wrapper}>
       <div css={styles.innerContainer}>
         {links.map(({ link, img }) => (
@@ -60,6 +64,7 @@ const SocialLinks: React.FC = () => {
           <div css={styles.line} />
         </div>
       </div>
+    </div>
     </div>
   );
 };

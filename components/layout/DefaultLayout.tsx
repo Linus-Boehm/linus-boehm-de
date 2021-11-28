@@ -20,8 +20,8 @@ const DefaultLayout: React.FC = ({ children }) => {
       </Head>
       <TopBar />
       {children}
-      <Footer />
       <SocialLinks />
+      <Footer />
     </div>
   );
 };

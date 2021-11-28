@@ -13,7 +13,7 @@ const styles: CSSOthersObject = {
       line-height: 30px;
       font-weight: 400;
     `,
-    tw`font-sans text-white text-2xl text-left py-2`,
+    tw`font-sans text-white text-xl md:text-2xl text-left py-2`,
   ]
 };
 

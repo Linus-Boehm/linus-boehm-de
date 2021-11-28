@@ -6,7 +6,7 @@ import HamburgerMenu from './hamburger/HamburgerMenu';
 const styles: CSSOthersObject = {
   container: [tw`w-full flex h-16`],
   imgContainer: [
-    tw`mx-auto mt-4 cursor-pointer`,
+    tw`mx-auto mt-4 cursor-pointer absolute  -translate-x-1/2 left-1/2`,
     css`
       transition: all ease-in-out 0.2s;
       &:hover {

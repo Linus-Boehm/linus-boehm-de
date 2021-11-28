@@ -572,6 +572,16 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/amatic-sc@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/amatic-sc/-/amatic-sc-4.5.0.tgz#bad1434f0886a6a804da963d3538b106993ed573"
+  integrity sha512-tBKa+zsXiufhofyxwdhULyg7zHp/QCd5YgpOTHtfWF7oI8IeGoeJOtGlP6/QkZsWujUZOB0fc0pnige5/upQZg==
+
+"@fontsource/josefin-sans@^4.5.1":
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/@fontsource/josefin-sans/-/josefin-sans-4.5.1.tgz#b5630018fce69a3a16680199b95ba993387f07ae"
+  integrity sha512-V8T4akR0P9/MnYJ/ati4bvFp5Wdf0LEioNPGlEe7hK6c2BRQ3leeTXu4bKZ475H4i81eR4Av7bFNMp1aUC3zww==
+
 "@fontsource/nunito@^4.5.0":
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/@fontsource/nunito/-/nunito-4.5.0.tgz#a264413e974ee12ec689ec008bf8ecb41724cec7"

@@ -29,10 +29,6 @@ const Home: React.VFC = () => {
   const { t } = useTranslation('landingpage');
   return (
     <DefaultLayout>
-      <Head>
-        <title>Linus Boehm</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <SectionContainer>
         <div css={mainSection}>
           <div tw="flex flex-col-reverse md:flex-row">

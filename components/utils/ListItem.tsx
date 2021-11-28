@@ -1,7 +1,7 @@
 import tw from 'twin.macro';
 import React from 'react';
 
-const style = tw`flex font-sans text-white text-xl my-1`;
+const style = tw`flex text-white text-xl my-1`;
 
 const imgContainer = tw`my-1.5 mr-2 `;
 

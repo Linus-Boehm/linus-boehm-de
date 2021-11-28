@@ -3,18 +3,31 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        mint: {
+          DEFAULT: '#E6EFE9'
+        },
         primary: {
           DEFAULT: '#182B3F',
           dark: '#0B192E',
         },
         secondary: {
           DEFAULT: '#E5B55E',
+          light: '#E7B71E',
         },
+        flame: {
+          DEFAULT: '#EC4E20'
+        },
+        'grey-accent': {
+          DEFAULT: '#829191'
+        },
+        'pink-accent': {
+          DEFAULT: '#E60067'
+        }
       },
     },
     fontFamily: {
       sans: [
-        '"Nunito"',
+        '"Josefin Sans"',
         'system-ui',
         '-apple-system',
         'BlinkMacSystemFont',
@@ -30,7 +43,7 @@ module.exports = {
         '"Segoe UI Symbol"',
       ],
       serif: [
-        'ui-serif',
+        'Quattrocento Sans',
         'Georgia',
         'Cambria',
         '"Times New Roman"',

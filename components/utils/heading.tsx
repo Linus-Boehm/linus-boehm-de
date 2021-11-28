@@ -1,13 +1,14 @@
 import React from 'react';
 import tw, { css } from 'twin.macro';
 
+//font-family: 'Yuji Boku', serif;
 const styles = {
   h1: [
     css`
-      font-family: 'Yuji Boku', serif;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      font-family: 'Amatic SC', sans-serif;
+      font-weight: 400;
     `,
-    tw`text-secondary text-4xl md:text-6xl text-left md:mb-8 mb-4`,
+    tw`text-secondary-light text-4xl md:text-6xl text-left md:mb-8 mb-4`,
   ],
 };
 

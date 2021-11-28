@@ -16,9 +16,7 @@ const styles: CSSOthersObject = {
   container: tw`bg-primary min-h-screen`,
   subheading: [
     css`
-      font-family: 'Nunito', sans-serif;
       line-height: 52px;
-      font-weight: 300;
     `,
     tw`text-white text-xl md:text-3xl text-left `,
   ],
@@ -40,7 +38,7 @@ const Home: React.VFC = () => {
                 {t('welcome-subtitle-2')}
               </h3>
             </div>
-            <div tw="md:mx-2 mx-auto md:my-0 my-8">
+            <div tw="md:mx-4 mx-auto md:my-0 my-8">
               <ProfilePicture />
             </div>
           </div>

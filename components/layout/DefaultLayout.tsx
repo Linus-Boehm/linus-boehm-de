@@ -8,7 +8,7 @@ import Head from 'next/head'
 
 const styles: CSSOthersObject = {
   // Move long class sets out of jsx to keep it scannable
-  container: tw`bg-primary min-h-screen text-white flex flex-col`,
+  container: tw`bg-primary min-h-screen text-white flex flex-col font-sans font-light`,
 };
 
 const DefaultLayout: React.FC = ({ children }) => {

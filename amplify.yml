@@ -3,14 +3,16 @@ frontend:
   phases:
     preBuild:
       commands:
+        - yarn global add next
         - yarn install
     build:
       commands:
         - yarn run build
   artifacts:
-    baseDirectory: .next
     files:
-      - '**/*'
+      - '.next/**/*'
+      - 'next.config.js'
+      - 'next.i18next.config.js'
   cache:
     paths:
       - node_modules/**/*

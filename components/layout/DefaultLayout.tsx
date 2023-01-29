@@ -11,7 +11,7 @@ const styles: CSSOthersObject = {
   container: tw`bg-primary min-h-screen text-white flex flex-col font-sans font-light`,
 };
 
-const DefaultLayout: React.FC = ({ children }) => {
+const DefaultLayout: React.FC<React.PropsWithChildren<unknown>> = ({ children }) => {
   return (
     <div css={styles.container}>
       <Head>

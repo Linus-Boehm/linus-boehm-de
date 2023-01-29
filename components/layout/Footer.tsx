@@ -12,7 +12,7 @@ const styles: CSSOthersObject = {
   ],
 };
 
-const Footer: React.FC = () => {
+const Footer: React.FC<React.PropsWithChildren<unknown>> = () => {
   return (
     <div css={styles.wrapper}>
       <div css={styles.container}>

@@ -10,7 +10,7 @@ interface SectionContainerProps {
   css?: CSSInterpolation;
 }
 
-const SectionContainer: React.FC<SectionContainerProps> = ({
+const SectionContainer: React.FC<React.PropsWithChildren<SectionContainerProps>> = ({
   children,
   css,
 }) => {

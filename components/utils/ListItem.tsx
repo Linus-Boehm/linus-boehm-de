@@ -5,7 +5,7 @@ const style = tw`flex text-white text-xl my-1`;
 
 const imgContainer = tw`my-1.5 mr-2 `;
 
-const ListItem: React.FC = ({ children }) => {
+const ListItem: React.FC<React.PropsWithChildren<unknown>> = ({ children }) => {
 
   return (
     <div css={style}>

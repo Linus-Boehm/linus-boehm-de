@@ -9,7 +9,7 @@ interface ListGroupProps {
   title?: string;
 }
 
-const ListGroup: React.FC<ListGroupProps> = ({ children, title }) => {
+const ListGroup: React.FC<React.PropsWithChildren<ListGroupProps>> = ({ children, title }) => {
   return (
     <div css={style}>
       {title && <h4 css={titleStyle}>{title}</h4>}

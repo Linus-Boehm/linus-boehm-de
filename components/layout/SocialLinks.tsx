@@ -44,7 +44,7 @@ const links: Array<SocialIcon> = [
     img: '/images/in.svg',
   },
 ];
-const SocialLinks: React.FC = () => {
+const SocialLinks: React.FC<React.PropsWithChildren<unknown>> = () => {
   return (
     <div css={styles.spacer}>
     <div css={styles.wrapper}>

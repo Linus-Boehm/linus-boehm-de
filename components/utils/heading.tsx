@@ -12,7 +12,7 @@ const styles = {
   ],
 };
 
-const Heading: React.FC = ({  children }) => {
+const Heading: React.FC<React.PropsWithChildren<unknown>> = ({  children }) => {
   return <h1 css={styles.h1}>{children}</h1>;
 };
 

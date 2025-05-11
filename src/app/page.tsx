@@ -10,7 +10,7 @@ export default function Home() {
         <div className="flex flex-col items-center mb-16">
           <div className="relative w-48 h-48 mb-6">
             <Image
-              src="/images/Linus.jpg"
+              src="/images/Linus.jpeg"
               alt="Linus Boehm"
               fill
               className="rounded-full object-cover"
